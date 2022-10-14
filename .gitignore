@@ -128,10 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
-opdrachten/practica/week07/numpy_opdracht2_solutions.ipynb
 .gitignore
 notebooks/
 .vscode/launch.json
+opdrachten/practica/week07/image_recognition/notebook/pics/2750/
 opdrachten/practica/week07/beeldherkenning/notebook/~/tensorflow_datasets
 opdrachten/practica/week07/beeldherkenning/notebook/csv/mnist_train.csv
 opdrachten/practica/week07/image_recognition/notebook/pics/2750/
