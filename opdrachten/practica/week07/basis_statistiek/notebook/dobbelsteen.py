@@ -1,13 +1,17 @@
 #!/usr/bin/env python
 
 import random
+import numpy as np
+
 
 class Dobbelsteen:
-    
+
     def __init__(self):
-        self.values = set(range(1, 7))  
+        self.history = list()
+        self.values = set(range(1, 7))
         self.roll()
-        
+      
+
         # https://realpython.com/python-dice-roll
         self.faces = {
 
@@ -74,17 +78,23 @@ class Dobbelsteen:
 
     def roll(self):
         self.number = random.choice(self.getList())
+        self.history.append(self.number)
 
     def getNumber(self):
         return self.number
 
-    def show(self):        
+    def show(self):
         return str(self.faces.get(self.number))
+
+    def getHistory(self):
+        return np.array(self.history)
+
 
 def main():
     d = Dobbelsteen()
     d.roll()
     d.show()
 
+
 if __name__ == main():
-    main()                
+    main()
