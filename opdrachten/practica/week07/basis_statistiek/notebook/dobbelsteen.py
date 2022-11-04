@@ -7,9 +7,10 @@ import numpy as np
 class Dobbelsteen:
 
     def __init__(self):
-        self.history = list()
         self.values = set(range(1, 7))
+        self.history = list()
         self.roll()
+        self.history = list()
       
 
         # https://realpython.com/python-dice-roll
