@@ -159,3 +159,5 @@ checkpoint
 model.tflearn.data-00000-of-00001
 model.tflearn.index
 model.tflearn.meta
+projects/apple_disease_classification/data/80apples
+projects/apple_disease_classification/Dataset_Learning /Chatbot/80counter.ipynb

@@ -2,6 +2,7 @@
 import pickle
 import json
 import random
+import tensorflow
 import tensorflow as tf
 import tflearn
 import numpy
@@ -56,7 +57,7 @@ appleClass = aqlclass(appleBatch)
 # print('Scab appels:',countScab)
 # print('Rotte appels:',countRot)
 
-with open('projects/apple_disease_classification/Dataset_Learning /Chatbot/chat_talk.json') as file:
+with open('chat_talk.json') as file:
     data = json.load(file)
 
 # print (data['intents'])
