@@ -161,3 +161,4 @@ model.tflearn.index
 model.tflearn.meta
 projects/apple_disease_classification/data/80apples
 projects/apple_disease_classification/Dataset_Learning /Chatbot/80counter.ipynb
+projects/apple_disease_classification/Dataset_Learning /load_predict/tl_21112022_17h20_1.h5
