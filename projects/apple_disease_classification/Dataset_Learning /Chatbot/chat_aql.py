@@ -40,13 +40,14 @@ def aqlclass(appleBatch):
     countScab = appleBatch.count('scab')
     countRot = appleBatch.count('rot')
     if countNormal == 80:
-        return ('AQL Klasse 1')
+        return ('AQL 1')
     elif countScab + countBlotch + countRot <= 5:
-        return ('AQL Klasse 2')
+        return ('AQL 2')
     elif 6 <= countScab + countBlotch + countRot <= 10:
-        return ('AQL Klasse 3')
+        return ('AQL 3')
     else:
-        return ('AQL Klasse 4 afgekeurd')
+        return ('AQL 4
+                ')
 
 
 appleClass = aqlclass(appleBatch)
